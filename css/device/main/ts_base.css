@@ -1,0 +1,203 @@
+/* ts_base.css */
+
+
+#wrap{
+  width: 100%; height: 100%;  margin: auto;
+  background-color: #f2f2f2;
+}
+
+/* #headBox ==================================================== */
+#headBox{
+  /* 임시 position 아래로 스크롤 시 h1 사라지고 navBox 상단고정으로 변경함 */
+  /* position: fixed; z-index: 1000; top: 0; left: 0; */
+  width: 100%; height: 240px;
+  background-color: transparent;
+  
+}
+.container{
+  width: auto; height: auto;
+  padding-top: 30px; box-sizing: border-box;
+}
+h1{
+  width: 460px; height: 90px;
+  margin: auto; 
+  background-color: #a11923;
+}
+.navBox{
+  /* position: fixed; top: 0; left: 0; */
+  width: 100%; height: 90px;
+  margin-top: 30px;
+  background-color: #333;
+  padding: 10px 20px 10px; box-sizing: border-box;
+  color: #fff;
+}
+.gnb{width: 600px; height: 70px; margin:auto; line-height: 70px; }
+.gnb>ul>li{float: left;}
+.gnb>ul>li:first-child{width: 140px;}
+
+.unb{float: right; width: 60px; height: 60px; margin-top:-65px; background-color: #fff;}
+/* //#headBox =================================================== */
+
+/* 공통으로 쓰이는 요소 */
+.full_size{
+  width: auto; height: auto;
+  padding: 50px; box-sizing: border-box;
+  text-align: center;
+}
+.cont{
+  width: 460px; height: 240px;
+  padding: 30px; box-sizing: border-box;
+  background-color: #333;
+  color: #fff; text-align: center;
+}
+.cont p { margin-bottom: 30px;}
+
+/* #coffeeBox ==================================================== */
+#coffeeBox{
+  position: relative;
+  width: 100%; height: 660px;
+  background-color: #ddd;
+}
+.coffee_cont{
+  position: absolute; bottom: 90px; left: 90px;
+}
+.more_btn_area{
+  display: inline;
+}
+.more_btn{
+  width: 180px; height: 40px;
+  color: #fff;
+  background-color: #a11923;
+}
+/* //#coffeeBox =================================================== */
+
+/* #brandBox ==================================================== */
+#brandBox{
+  position: relative;
+  width: 100%; height: 420px;
+  padding: 20px; box-sizing: border-box;
+}
+.brand_img{
+  width: 50%; height: 100%;
+  background-color: #ddd;
+}
+.brand_cont{
+  position: absolute; bottom: 30px; right: 40px;
+  width: 500px;
+}
+/* //#brandBox =================================================== */
+
+/* #menuBox ==================================================== */
+#menuBox{
+  width: 100%; height: 960px; 
+  padding: 50px; box-sizing: border-box;
+  background-color: #eeece6; text-align: center;
+}
+#menuBox>ul{width: 100%; height: 100%;}
+#menuBox>ul>li{width: 600px; height: 33.333333%; margin: auto;}
+.recommend_img{
+  float: left;
+  width: 240px; height: 240px; 
+  margin-right: 30px;
+  border-radius: 50%; background-color: #ddd; 
+}
+.recommend_text_area{
+  float: left;
+  width: 320px; height: 240px; 
+  padding-top: 60px; box-sizing: border-box;
+}
+#menuBox>ul>li:nth-of-type(2) .recommend_img{float: right; margin: 0;}
+#menuBox>ul>li:nth-of-type(2) .recommend_text_area{float: right; margin-right: 30px;}
+/* //#menuBox =================================================== */
+
+/* #storeBox ==================================================== */
+#storeBox{
+  width: 100%; height: 240px;
+  background-color: #ddd ; 
+}
+.search_area{
+  width: 100%; height: auto;
+}
+.input_box{
+  display: inline-block;
+  width: 620px; height: 50px;
+  padding: 6px 10px 0;
+  border: 5px solid #fff;
+  background-color: #333;
+  text-align: left;
+  line-height: 40px;
+  color: #fff;
+  font-size: 1rem;
+}
+.input_box i{float: right; width: 44px; height: 44px; background-color: #fff;}
+/* //#storeBox =================================================== */
+
+/* #snsBox ==================================================== */
+#snsBox{
+  width: 100%; height: 240px;
+}
+.sns_area{
+  display: inline-block;
+  width: 200px; height: auto;
+  padding: 20px; box-sizing: border-box;
+}
+.sns_icon{
+  width: 60px; height: 60px;
+  background-color: teal;
+}
+.sns_01{
+  float: left;
+  /* background-image: ; */
+}
+.sns_02{
+  float: right;
+  /* background-image: ; */
+}
+/* //#snsBox =================================================== */
+
+/* #footBox ==================================================== */
+#footBox{
+  width: 100%; height: 240px;
+  background-color: #333;
+}
+.foot_container{
+  width: 100%; height: auto;
+  padding: 20px; box-sizing: border-box;
+}
+.foot_area_01{
+  width: 100%; height: auto;
+}
+.foot_logo{
+  width: 300px; height: 60px;
+  margin: auto;
+  background-color: #a11923;
+}
+.family_site{
+  float: right;
+  width: 220px; height: 60px;
+  margin-top: -60px;
+  background-color: #ddd;
+}
+/* .site_select{} */
+/* .go_btn{} */
+
+.foot_area_02{
+  width: 100%; height: auto;
+  color: #fff;
+  text-align: center;
+  padding: 20px; box-sizing: border-box;
+}
+.fnb{width: 510px; height: 30px; margin: auto;}
+.company_info{width: 620px; height: auto; margin: auto;}
+
+/* //#footBox =================================================== */
+
+.top_btn_area{
+  position: fixed;
+  bottom: 50px; right: 50px;
+  width: auto; height: auto;
+}
+.top_btn{
+  width: 60px; height: 60px;
+  background-color: #a11923;
+}

@@ -1,11 +1,11 @@
 @charset "utf-8";
 
-@import url('/css/device/ts_base.css');
-@import url('/css/device/ts_mob_v.css');
-@import url('/css/device/ts_mob_h.css');
-@import url('/css/device/ts_tab.css');
-@import url('/css/device/ts_pc.css');
-@import url('/css/device/ts_pcfull.css');
+@import url('/css/device/main/ts_base.css');
+@import url('/css/device/main/ts_mob_v.css');
+@import url('/css/device/main/ts_mob_h.css');
+@import url('/css/device/main/ts_tab.css');
+@import url('/css/device/main/ts_pc.css');
+@import url('/css/device/main/ts_pcfull.css');
 
 
 /* ts_base.css ts_mob_v.css ts_mob_h.css ts_tab.css ts_pc.css ts_pcfull.css */
