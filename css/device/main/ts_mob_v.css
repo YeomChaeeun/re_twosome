@@ -6,8 +6,34 @@
     
   /* #headBox ==================================================== */
   #headBox{
-    
+    height: auto;
   }
+  .container{padding:0px;}
+
+  h1{position:fixed; top: 25px; left:0; right:0; z-index: 2000; width: 170px; height: 40px;}
+  h1 > a{
+    background-image: url('../../../img/1x/h1_logo_mob_2.png');
+  }
+  .navBox{position: fixed; top: 0; left: 0; z-index: 1000; margin: 0;}
+
+  #pull{display:none; float: left; 
+  width: 60px; height: 60px; margin-left: 10px; text-align: center; 
+  border-radius: 5px; line-height: 60px;background-color: #fcfcfc; }
+
+  #gnb{position:fixed; z-index:1000; top: 90px; left: 0; display: block; width:100%; height:auto;}
+  .menu{/*display:none;*/ width:100%; height: auto; background-color: #333;}
+  .menu li{width: 100%;}
+  .menu li{width: 100%; height: 50px; font-weight: bold; padding: 5px; box-sizing: border-box;}
+  .menu li>ul>li{width: 100%; height: auto; /*display: none;*/}
+  .menu li>ul>li{width: 100%; height: 50px; padding: 5px; box-sizing: border-box;}
+  .menu a{display: block; width: 100%; height: 100%; text-indent: 25px; line-height: 40px;}
+  .menu dl:hover dd{display: block;}
+
+  #pull {display: block;}
+  #pull:hover+#gnb .menu,
+  #pull:focus+#gnb .menu{display: block;}
+
+
   /* //#headBox =================================================== */
 
   /* #coffeeBox ==================================================== */
@@ -23,9 +49,13 @@
   /* //#brandBox =================================================== */
 
   /* #menuBox ==================================================== */
+
   #menuBox{
-    
+    height: 1500px;
   }
+  #menuBox>ul{width: auto; height: auto; margin: auto;}
+  #menuBox>ul>li{float:left; width: 100%; height: auto;}
+  .recommend_img, .recommend_text_area{float: none; margin: auto;}
   /* //#menuBox =================================================== */
 
   /* #storeBox ==================================================== */
@@ -44,6 +74,7 @@
   #footBox{
     
   }
+  .family_site_box{display: none;}
   /* //#footBox =================================================== */
 
   

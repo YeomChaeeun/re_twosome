@@ -24,8 +24,10 @@
 
   /* #menuBox ==================================================== */
   #menuBox{
-    
+    padding: 10px;
   }
+  #menuBox>ul>li:nth-of-type(2) .recommend_img{float: right; margin: 0;}
+  #menuBox>ul>li:nth-of-type(2) .recommend_text_area{float: right; margin-right: 30px;}
   /* //#menuBox =================================================== */
 
   /* #storeBox ==================================================== */
@@ -44,6 +46,7 @@
   #footBox{
     
   }
+  .family_site_box{display: none;}
   /* //#footBox =================================================== */
 
   /* @media end*/
