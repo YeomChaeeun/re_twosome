@@ -3,6 +3,8 @@
 /* design data : 1024px */
 @media screen and (min-width: 1024px) and (max-width: 1439px){
 
-
+ 
+  #historyBox>ul>li:nth-of-type(2) .history_img{float: right; margin: 0;}
+  #historyBox>ul>li:nth-of-type(2) .his_text_area{float: right;} 
 /* @media end */
 }

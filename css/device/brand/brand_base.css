@@ -7,15 +7,49 @@
 /* #viewBox =============================================== */
 #viewBox{
   width: 100%; height: 660px;
+}
+.view_area{
+  position: relative; top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: #333;
+}
+.map_img{
+  position: absolute; bottom: 0; left: 0; right: 0;
+  width: 40%; height: 50%; margin: auto;
   background-color: #ddd;
 }
 /* //#viewBox ============================================== */
+
+.full_size{
+  width: auto; height: auto;
+  padding: 50px; box-sizing: border-box;
+  text-align: center;
+}
 
 /* ##historyBox =============================================== */
 #historyBox{
   width: 100%; height: 960px;
   background-color: #afc;
+  margin: auto;
+  text-align: center;
 }
+
+#historyBox h4{font-size: 1.3rem; margin-bottom: 30px;}
+#historyBox>ul{width: 100%; height: 100%;}
+#historyBox>ul>li{width: 600px; height: 33.333333%; margin: auto;}
+.history_img{
+  float: left;
+  width: 240px; height: 240px; 
+  margin-right: 30px;
+  border-radius: 50%; background-color: #ddd; 
+}
+.his_text_area{
+  float: left;
+  width: 320px; height: 240px; 
+  padding-top: 60px; box-sizing: border-box;
+  text-transform: uppercase;
+}
+
 /* //#historyBox ============================================== */
 
 /* #brandCoffeeBox =============================================== */
@@ -28,7 +62,7 @@
 /* #brandDessertBox =============================================== */
 #brandDessertBox{
   width: 100%; height: 420px;
-  background-color: #ffa;
+  max-width: 1440px;
 }
 /* //#brandDessertBox ============================================== */
 
