@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko-KR">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="../css/src/main.css">
 
   <!--[if IE]>
-    <meta srcc="../ie/html5shiv/dist/html5shive.min.js">
-    <meta srcc="../ie/pie/PIE.js">
-    <meta srcc="../ie/respond/dist/respond.min.js">
+    <meta src="../ie/html5shiv/dist/html5shive.min.js">
+    <meta src="../ie/pie/PIE.js">
+    <meta src="../ie/respond/dist/respond.min.js">
   <![endif] -->
   <title>a twosome place</title>
 </head>
@@ -24,7 +24,7 @@
     <header id="headBox">
       <div class="container">
         <h1><a href="#"><span class="hidden">logo</span></a></h1>
-  
+        
         <nav class="navBox">
           <h2 class="hidden">navigation 영역</h2>
           <a href="#" id="pull"><span class="hidden">menu</span></a>
@@ -32,9 +32,9 @@
             <h3 class="hidden">global navigation</h3>
             <ul class="menu clearfix">
               <li>
-                <a class="drop" href="#">a twosome place</a>
+                <a class="drop" href="./brandstory.html">a twosome place</a>
                 <ul>
-                  <li><a href="#">브랜드 이야기</a></li>
+                  <li><a href="./brandstory.html">브랜드 이야기</a></li>
                   <li><a href="#">커피 이야기</a></li>
                   <li><a href="#">디저트 이야기</a></li>
                 </ul>
@@ -76,8 +76,8 @@
                 <a class="drop" href="#">franchise</a>
               </li>
             </ul>
+            <div class="unb"><a href="#"><h3 class="hidden">unb</h3></a></div>
           </div>
-          <div class="unb"><a href="#"><span class="hidden">unb</span></a></div>
         </nav>
 
       </div>
@@ -87,15 +87,18 @@
     <!-- #coffeeBox ============================================ -->
     <article id="coffeeBox">
       <h2 class="hidden">main coffee story 영역</h2>
-      <div class="cont coffee_cont">
-        <h3>투썸의 두 가지 블렌드</h3>
-        <p>투썸의 큐레이더는 좋은 산지의 신선한 원두만을 선별 해 
-          개성 있는 풍미의 두가지 블  렌드를 제공합니다.
-          원두 타입 별 최적의 밸런스를 맞춘 로스팅포인트, 최상의 에스프레소 추출기술이 더해져
-          오늘도 가장 맛있는 커피가 완성됩니다.</p>
-        <div class="more_btn_area">
-          <button type="button" class="more_btn"><span>커피 이야기 보기</span></button>
+      <div class="coffee_area">
+        <div class="cont coffee_cont">
+          <h3>투썸의 두 가지 블렌드</h3>
+          <p>투썸의 큐레이더는 좋은 산지의 신선한 원두만을 선별 해 
+            개성 있는 풍미의 두가지 블  렌드를 제공합니다.
+            원두 타입 별 최적의 밸런스를 맞춘 로스팅포인트, 최상의 에스프레소 추출기술이 더해져
+            오늘도 가장 맛있는 커피가 완성됩니다.</p>
+          <div class="more_btn_area">
+            <button type="button" class="more_btn"><span>커피 이야기 보기</span></button>
+          </div>
         </div>
+
       </div>
     </article>
     <!-- //#coffeeBox=========================================== -->
@@ -110,7 +113,7 @@
           우리가 함께하는(Two of us), 눈과 입이 즐거운 색다른 디저트를 즐기는(Some dessert),
           작은 사치를 누릴 수 있는 행복한 공간(Place) 입니다.</p>
         <div class="more_btn_area">
-          <button type="button" class="more_btn"><span>커피 이야기 보기</span></button>
+          <button type="button" class="more_btn"><span>브랜드 이야기 보기</span></button>
       </div>
     </article>
     <!-- //#brandBox=========================================== -->
@@ -156,9 +159,8 @@
         <fieldset>
           <legend class="hidden">store search</legend>
           <input type="text" id="searchArea" name="search" value placeholder="매장명을 입력하세요.">
-          <input type="button" id="sendBtn" value="전송">
+          <button type="button" class="sendBtn"><span class="hidden">검색</span></button>
         </fieldset>
-        <!-- <div class="input_box"><span>매장명 입력하세요</span><i></i></div> -->
       </div>
     </article>
     <!-- //#storeBox=========================================== -->
@@ -187,7 +189,7 @@
         </div>
         <div class="foot_area_02">
           <div class="fnb">
-            <ul>
+            <ul class="clearfix">
               <li><a href="#">사이트맵</a></li>
               <li><a href="#">리쿠르트</a></li>
               <li><a href="#">이용약관</a></li>

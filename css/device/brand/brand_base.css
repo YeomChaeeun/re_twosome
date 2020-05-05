@@ -1,0 +1,43 @@
+/* brand_base.css */
+
+#wrap{
+  width: 100%; height: 100%;
+}
+
+/* #viewBox =============================================== */
+#viewBox{
+  width: 100%; height: 660px;
+  background-color: #ddd;
+}
+/* //#viewBox ============================================== */
+
+/* ##historyBox =============================================== */
+#historyBox{
+  width: 100%; height: 960px;
+  background-color: #afc;
+}
+/* //#historyBox ============================================== */
+
+/* #brandCoffeeBox =============================================== */
+#brandCoffeeBox{
+  width: 100%; height: 420px;
+  background-color: #aff;
+}
+/* //#brandCoffeeBox ============================================== */
+
+/* #brandDessertBox =============================================== */
+#brandDessertBox{
+  width: 100%; height: 420px;
+  background-color: #ffa;
+}
+/* //#brandDessertBox ============================================== */
+
+.top_btn_area{
+  position: fixed;
+  bottom: 50px; right: 50px;
+  width: auto; height: auto;
+}
+.top_btn{
+  width: 60px; height: 60px;
+  background-color: #a11923;
+}

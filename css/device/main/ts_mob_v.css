@@ -3,49 +3,82 @@
 /* desigh data : 320px; */
 @media screen and (max-width: 639px){
 
-    
   /* #headBox ==================================================== */
   #headBox{
     height: auto;
   }
-  .container{padding:0px;}
+  .navBox{
+    position: fixed; top: 0px; left: 0; z-index: 1000;
+    width: 100%; height: 90px;color: #fff;
+  }
 
   h1{position:fixed; top: 25px; left:0; right:0; z-index: 2000; width: 170px; height: 40px;}
   h1 > a{
     background-image: url('../../../img/1x/h1_logo_mob_2.png');
   }
-  .navBox{position: fixed; top: 0; left: 0; z-index: 1000; margin: 0;}
+  .container{padding:0;}
+  .gnb{position: fixed; top: 0; left: 0; width:100%; height:auto; text-transform: uppercase;}
 
-  #pull{display:none; float: left; 
-  width: 60px; height: 60px; margin-left: 10px; text-align: center; 
-  border-radius: 5px; line-height: 60px;background-color: #fcfcfc; }
+  .menu{display:none; margin-top: 90px; padding:10px; box-sizing: border-box; width:100%; height: auto; background-color: #333; }
 
-  #gnb{position:fixed; z-index:1000; top: 90px; left: 0; display: block; width:100%; height:auto;}
-  .menu{/*display:none;*/ width:100%; height: auto; background-color: #333;}
-  .menu li{width: 100%;}
-  .menu li{width: 100%; height: 50px; font-weight: bold; padding: 5px; box-sizing: border-box;}
-  .menu li>ul>li{width: 100%; height: auto; /*display: none;*/}
-  .menu li>ul>li{width: 100%; height: 50px; padding: 5px; box-sizing: border-box;}
-  .menu a{display: block; width: 100%; height: 100%; text-indent: 25px; line-height: 40px;}
-  .menu dl:hover dd{display: block;}
+  .menu ul {
+    width: auto; height: auto;
+    padding: 0 1000em; /* trick from css-tricks comments */
+    margin: 0 -1000em; /* trick from css-tricks comments */
+    padding-top: 20px;
+    z-index: 101;
+    overflow: hidden;
+    display: none;
+    background-color: #333;
+    border-top: 5px solid #a11923;
+  }  
+  .menu li>ul>li{
+    padding: 10px 50px; box-sizing: border-box;
+  }
+  .menu > li{padding: 10px 0px 10px; box-sizing: border-box;}
+  .menu li {
+    padding-left: 30px; box-sizing: border-box;
+  }
+  .menu li:hover .drop {
+    font-weight: bold;
+  }
+  .menu li:hover > ul {
+    display: block;
+  }
 
   #pull {display: block;}
-  #pull:hover+#gnb .menu,
-  #pull:focus+#gnb .menu{display: block;}
+  #pull:hover+.gnb .menu,
+  #pull:focus+.gnb .menu{display: block;}
 
+  .unb{ top: 30px; right: 20px;}
 
   /* //#headBox =================================================== */
 
+  .full_size{padding:0; padding-top:40px; box-sizing: border-box;}
+  .cont{
+    width: 300px; height: 240px;
+    position: absolute; 
+    font-size: 0.8rem;
+    bottom: 20px; 
+  }
   /* #coffeeBox ==================================================== */
   #coffeeBox{
-    
+    height: 480px; height: 150vw;
+    max-height: 600px;
+    background-size: 1440px;
+    background-position: 40% 50%;
   }
+  .coffee_cont{left: 10px;}
   /* //#coffeeBox =================================================== */
 
   /* #brandBox ==================================================== */
   #brandBox{
-    
+    height: 480px;  height: 150vw;
+    max-height: 600px;
+    padding:10px;
   }
+  .brand_img{width: 100%;}
+  .brand_cont{right: 10px;}
   /* //#brandBox =================================================== */
 
   /* #menuBox ==================================================== */
@@ -72,9 +105,17 @@
 
   /* #footBox ==================================================== */
   #footBox{
-    
+    height: 390px;
+  }
+  .foot_logo{
+    width: 240px; height: 50px;
+    background-image: url('../../../img/1x/foot_logo_320.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
   }
   .family_site_box{display: none;}
+  .fnb{width: 100%; font-size: 0.8rem;}
+  .company_info{width: 100%; font-size: 0.8rem;}
   /* //#footBox =================================================== */
 
   
