@@ -22,7 +22,7 @@
 </head>
 <body>
   <!-- layout -->
-  <div class="wrap">
+  <div id="wrap">
     <!-- #headBox ============================================ -->
     <header id="headBox">
       <div class="container">
@@ -89,14 +89,56 @@
     <!-- #viewBox =========================================== -->
     <section id="viewBox">
       <h2 class="hidden">menu main slide 영역</h2>
-      <div class="slide_btn"></div>
-      <div class="sub_menu"></div>
+      <div class="slide_btn">
+        <button type="button" class="next"><span class="hidden">next</span></button>
+        <button type="button" class="prev"><span class="hidden">prev</span></button>
+      </div>
+      <div class="sub_menu">
+        <ul class="clearfix">
+          <li><a href="#">커피 및 음료</a></li>
+          <li><a href="#">디저트</a></li>
+          <li><a href="#">델리</a></li>
+          <li><a href="#">홀케이크</a></li>
+          <li><a href="#">상품</a></li>
+        </ul>
+      </div>
     </section>
     <!-- //#viewBox ========================================== -->
 
     <!-- #menuBox =========================================== -->
     <section id="menuBox">
-
+      <h2 class="hidden">menu list</h2>
+      <ul class="menu_list clearfix">
+        <li><p>아메리카노</p></li>
+        <li><p>아메리카노</p></li>
+        <li><p>아메리카노</p></li>
+        <li><p>아메리카노</p></li>
+        <li><p>아메리카노</p></li>
+        <li><p>아메리카노</p></li>
+        <li><p>아메리카노</p></li>
+        <li><p>아메리카노</p></li>
+        <li><p>아메리카노</p></li>
+        <li><p>아메리카노</p></li>
+        <li><p>아메리카노</p></li>
+        <li><p>아메리카노</p></li>
+      </ul>
+      <div class="pull_menu">
+        <div class="pull_menu_text">
+          <p>아메리카노</p>
+          <p>뜨거운 물에 에스프레소를 희석,<br />
+            한층 부드럽고 깊은 커피의 맛을 느낄수 있는 레귤러 커피</p>
+          <p>가격정보 tall 5,000원/ regular 6,300원</p>
+        </div>
+        <div class="pull_menu_img">
+          <span class="hidden">선택된 메뉴 이미지</span>
+        </div>
+        <div class="pull_menu_btn_area">
+          <button type="button"><span class="hidden">close button</span></button>
+        </div>
+      </div>
+      <div class="menu_more_btn_area">
+        <button type="button"><span class="hidden">more</span></button>
+      </div>
     </section>
     <!-- //#menuBox ========================================== -->
 

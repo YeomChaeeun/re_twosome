@@ -4,6 +4,27 @@
 @media screen and (min-width: 640px) and (max-width: 1023px){
 
 
+  /* #viewBox ========================================= */
+  #viewBox{
+    height: 540px; height: 84.375vw;
+    max-height: 660px;
+  }
+  .sub_menu ul{width: 30%;}
+  .sub_menu{height: auto;}
+  .sub_menu ul li {width: 100%;margin-bottom: 5px;}
+
+  /* //#viewBox ======================================== */
+  /* #menuBox ========================================= */
+  #menuBox{
+    height: 2200px;
+    padding: 30px;
+  }
+  .menu_list li{
+    width: 48%; margin-right: 4%;
+  }
+  .menu_list li:nth-child(2n){margin-right: 0;}
+
+  /* //#menuBox ======================================== */
   
 /* @media end */
 }

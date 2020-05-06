@@ -2,8 +2,18 @@
 
 /* design data : 1920px */
 @media screen and (min-width: 1920px){
-
-  
+ 
+  #viewBox{
+    height: 900px;
+    background-position: 50% 50%;
+    background-size: 100%;
+  }
+  #menuBox{
+    height: 1560px;
+  }
+  .menu_list li{
+    height: 400px;
+  }
 
 /* @media end */
 }

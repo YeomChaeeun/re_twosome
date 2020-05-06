@@ -1,2 +1,68 @@
 /* event_base.css */
+/* headBox.css, footBox.css로 header, footer 구현 */
 
+/* desigh data : 1024px;  */
+#wrap{
+  width: 100%; height: 100%;  margin: auto;
+  background-color: #f2f2f2;
+  font-family: 'gt' , sans-serif; line-height: 1.2rem;
+}
+
+/* #viewBox ==================================================== */
+#viewBox{
+  position: relative;
+  width: 100%; height: 660px;
+  background-image: url('../../../img/img_30.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.view_text_area{
+  position: absolute;
+  top: 20%; left: 10%;
+}
+.view_text_area h2{
+  font-size: 5rem;
+  line-height: 7rem;
+}
+.view_text_area p{
+  font-size: 2rem;
+}
+.sub_menu{
+  position: absolute; bottom: 0;
+  width: 100%; height: 60px;
+  background-color: rgba(230, 230, 230, 0.5);
+  text-align: center;
+  line-height: 30px;
+}
+.sub_menu a{display: block; width: 100%; height: 100%;}
+.sub_menu ul{width: 60%; height: auto; max-width:1024px; margin:  auto; padding-top: 15px;}
+.sub_menu ul li{float:left; width: 47%; height: 30px; background-color: #f2f2f2; margin-right: 4%; border: 1px solid #333;}
+.sub_menu ul li:last-child{margin-right: 0;}
+/* //#viewBox ================================================= */
+
+/* #eventBox ==================================================== */
+#eventBox{
+  width: 100%; height: 1260px;
+  background-color: #f2f2f2;
+}
+#eventBox ul{width: 80%; height: 100%; max-width: 1440px; margin: auto; padding: 20px; box-sizing: border-box;}
+#eventBox ul li{width: 100%; height: 30%; margin-bottom: 20px; border-bottom: 2px solid #333; padding: 10px; box-sizing: border-box;}
+
+.event_cont{width: 100%; height: 100%;}
+.event_img{float:left; width: 50%; height: 100%; background-color: rosybrown;}
+
+/* event 임시 이미지 */
+
+
+.event_text{float:right; width: 50%; height: 100%; padding: 50px; box-sizing: border-box;}
+
+.event_text p:first-child{font-size: 1.4rem;}
+.event_text p{margin-bottom: 10px;}
+
+.event_more_btn{width: 180px; height: 60px; background-color: #333; margin: auto; color: #fff; margin-top: 120px;}
+.e_more_btn{color: #fff; text-align: center; width: 100%; height: 100%;}
+.e_more_btn span{width: 100%; height: 100%; line-height: 60px; font-size: 1.1rem;}
+
+
+/* //#eventBox ================================================= */

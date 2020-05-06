@@ -3,6 +3,31 @@
 /* desigh data : 320px; */
 @media screen and (max-width: 639px){
 
+  /* #viewBox ========================================= */
+  #viewBox{
+    height: 540px;
+  }
+  .sub_menu ul{width: 50%;}
+  .sub_menu{height: auto;}
+  .sub_menu ul li {width: 100%; margin-bottom: 5px;}
+
+  /* //#viewBox ======================================== */
+  /* #menuBox ========================================= */
+  #menuBox{
+    height: 1400px; height: 437.5vw;
+    max-height: 2200px;
+    padding: 30px;
+  }
+  .menu_list li{
+    width: 48%; height: 180px; height: 56.25vw; 
+    max-height: 300px;
+    margin-right: 4%; 
+    padding-top: 20px;
+    background-size: 110%;
+  }
+  .menu_list li:nth-child(2n){margin-right: 0;}
+
+  /* //#menuBox ======================================== */
 
   
 /* @media end */
