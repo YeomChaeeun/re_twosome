@@ -3,56 +3,6 @@
 /* design data : 640px */
 @media screen and (min-width: 640px) and (max-width: 1023px){
 
-  /* #headBox ==================================================== */
-  #headBox{
-    height: auto;
-  }
-  .navBox{
-    position: fixed; top: 0px; left: 0; z-index: 1000;
-    width: 100%; height: 90px;color: #fff;
-  }
-
-  h1{position:fixed; top: 25px; left:0; right:0; z-index: 2000; width: 170px; height: 40px;}
-  h1 > a{
-    background-image: url('../../../img/1x/h1_logo_mob_2.png');
-  }
-  .container{padding:0;}
-  .gnb{position: fixed; top: 0; left: 0; width:100%; height:auto; text-transform: uppercase;}
-
-  .menu{display:none; margin-top: 90px; padding:10px; box-sizing: border-box; width:100%; height: auto; background-color: #333; }
-
-  .menu ul {
-    width: auto; height: auto;
-    padding: 0 1000em; /* trick from css-tricks comments */
-    margin: 0 -1000em; /* trick from css-tricks comments */
-    padding-top: 20px;
-    z-index: 101;
-    overflow: hidden;
-    display: none;
-    background-color: #333;
-    border-top: 5px solid #a11923;
-  }  
-  .menu li>ul>li{
-    padding: 10px 50px; box-sizing: border-box;
-  }
-  .menu > li{padding: 10px 0px 10px; box-sizing: border-box;}
-  .menu li {
-    padding-left: 30px; box-sizing: border-box;
-  }
-  .menu li:hover .drop {
-    font-weight: bold;
-  }
-  .menu li:hover > ul {
-    display: block;
-  }
-
-  #pull {display: block;}
-  #pull:hover+.gnb .menu,
-  #pull:focus+.gnb .menu{display: block;}
-  
-  .unb{ top: 30px; right: 20px;}
-
-  /* //#headBox =================================================== */
 
   /* #coffeeBox ==================================================== */
   #coffeeBox{
@@ -78,14 +28,6 @@
   #menuBox>ul>li:nth-of-type(2) .recommend_text_area{float: right; margin-right: 30px;}
   /* //#menuBox =================================================== */
 
-  /* #footBox ==================================================== */
-  #footBox{
-    height: 300px;
-  }
-  .family_site_box{display: none;}
-  .fnb{width: 560px; font-size: 0.8rem;}
-  .company_info{width: 560px;}
-  /* //#footBox =================================================== */
 
   /* @media end*/
 }

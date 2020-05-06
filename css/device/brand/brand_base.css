@@ -1,4 +1,5 @@
 /* brand_base.css */
+/* headBox.css, footBox.css로 header, footer 구현 */
 
 /* desigh data : 1024px;  */
 #wrap{
@@ -143,13 +144,3 @@
 }
 .dessert_cont{float: left; left: 3%;}
 /* //#brandDessertBox ============================================== */
-
-.top_btn_area{
-  position: fixed;
-  bottom: 50px; right: 50px;
-  width: auto; height: auto;
-}
-.top_btn{
-  width: 60px; height: 60px;
-  background-color: #a11923;
-}
