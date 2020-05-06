@@ -8,6 +8,7 @@
 }
 .foot_container{
   width: 100%; height: auto;
+  max-width: 1440px; margin: auto;
   padding: 20px; box-sizing: border-box;
 }
 .foot_area_01{
@@ -20,21 +21,23 @@
   background-image: url('../../img/1x/foot_logo.png');
   background-repeat: no-repeat;
 }
-.family_site_box{float:right; width: 220px; height: 60px; margin-top: -50px;}
-.family_site{float:left; width: 150px; height: 30px; margin-right:5px; background-color: #333; border: 1px solid #fcfcfc; color: #fcfcfc; line-height: 30px;}
+.family_site_box{float:right; width: 220px; height: 60px; margin-top: -50px; }
+.family_site{float:left; width: 150px; height: 30px; margin-right:5px; padding-left: 10px; box-sizing: border-box; background-color: #333; border: 1px solid #fcfcfc; color: #fcfcfc; line-height: 30px;}
 .fnb_btn{float: left; width: 30px; height: 30px; background-color: #555; border: 1px solid #fcfcfc; color: #fcfcfc;}
 
 .foot_area_02{
   width: 100%; height: auto;
   color: #fff;
   text-align: center;
-  padding: 20px; box-sizing: border-box;
+  padding: 20px; box-sizing: border-box; 
+  font-weight: lighter;
 }
 .fnb{display:block; width: 630px; height: auto; margin: auto; margin-bottom: 20px;}
 .fnb>ul>li{float: left; width: auto; height: auto; margin-right:5px; padding-right:10px; box-sizing: border-box; border-right: 1px solid #fff;}
 .fnb>ul>li:last-child{border-right: 0;}
 .fnb>ul>li:nth-child(4){color: #FCC762;}
-.company_info{display:block; width: 700px; height: auto; margin: auto;}
+.company_info{display:block; width: 700px; height: auto; margin: auto; 
+ }
 .copyright{margin-top:10px; text-transform: uppercase;}
 
 /* base - //#footBox =================================================== */

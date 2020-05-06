@@ -3,8 +3,36 @@
 /* design data : 1024px */
 @media screen and (min-width: 1024px) and (max-width: 1439px){
 
- 
+  /* #viewBox =============================================== */
+  #viewBox{
+    height: 660px; height: 64.453125vw;
+    max-height: 900px;
+  }
+  .map_img{
+    width: 460px; height: 240px;
+    width: 44.921875vw; height: 23.4375vw;
+    max-width: 780px; max-height: 450px;
+  }
+  /* //#viewBox ============================================== */
+  /* #historyBox ===================================================== */
   #historyBox>ul>li:nth-of-type(2) .history_img{float: right; margin: 0;}
-  #historyBox>ul>li:nth-of-type(2) .his_text_area{float: right;} 
+  #historyBox>ul>li:nth-of-type(2) .his_text_area{float: left;} 
+  /* //#historyBox =================================================== */
+  
+  
+  /* #brandCoffeeBox ======================================== */
+  #brandCoffeeBox{
+    height: 420px; height: 41.015625vw;
+    max-height: 600px;
+  }
+  /* //#brandCoffeeBox ======================================= */
+
+  /* #brandDessertBox ======================================== */
+  #brandDessertBox{
+    height: 420px; height: 41.015625vw;
+    max-height: 600px;
+  }
+  /* //#brandDessertBox ======================================= */
+
 /* @media end */
 }

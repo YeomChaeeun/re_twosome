@@ -2,7 +2,24 @@
 
 /* design data : 640px */
 @media screen and (min-width: 640px) and (max-width: 1023px){
+  
+  /* #viewBox =============================================== */
+  #viewBox{
+    height: 460px;
+  }
+  /* //#viewBox ============================================== */
 
-
+  /* #historyBox ========================================== */
+  #historyBox{
+    height: 1500px;
+  }
+  #historyBox>ul>li{width: 100%; height: auto;}
+  .history_img, .his_text_area{float: none; margin: auto;}
+  .his_text_area{height:auto; padding-top: 30px; margin-bottom: 30px;}
+  /* //#historyBox ========================================== */
+  
+  .more_img{display: none;}
+  .cont{top:0; bottom:0; left: 0; right: 0; margin: auto;}
+  
 /* @media end */
 }

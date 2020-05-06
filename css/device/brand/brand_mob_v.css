@@ -3,6 +3,39 @@
 /* desigh data : 320px; */
 @media screen and (max-width: 639px){
 
+  .full_size{
+    padding: 50px 5px 0;
+  }
+  /* #viewBox =============================================== */
+  #viewBox{
+    height: 460px;
+  }
+  .view_area{background-size: 800px;}
+  .map_img{
+    display: none;
+  }
+  /* //#viewBox ============================================== */
+
+  /* #historyBox ========================================== */
+  #historyBox{
+    height: 1500px;
+  }
+  #historyBox>ul>li{width: 100%; height: auto;}
+  .history_img, .his_text_area{float: none; margin: auto;}
+  .his_text_area{width: 300px; height:auto; padding-top: 30px; margin-bottom: 30px;}
+  /* //#historyBox ========================================== */
+  
+  .more_img{display: none;}
+  .cont{
+    top:0; bottom:0; left: 0; right: 0; margin: auto;
+    width: 300px; height: 300px;
+  }
+  
+  /* #brandCoffeeBox ======================================== */
+  #brandCoffeeBox{
+    background-size: 1000px;}
+  /* //#brandCoffeeBox ======================================= */
+
 
 /* @media end */
 }
