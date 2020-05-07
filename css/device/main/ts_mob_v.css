@@ -10,6 +10,8 @@
     font-size: 0.8rem;
     bottom: 20px; 
   }
+  .cont p { margin-bottom: 10px;}
+  
   /* #coffeeBox ==================================================== */
   #coffeeBox{
     height: 480px; height: 150vw;

@@ -1,2 +1,121 @@
 /* fran_base.css */
+/* headBox.css, footBox.css로 header, footer 구현 */
 
+/* desigh data : 1024px;  */
+#wrap{
+  width: 100%; height: 100%;  margin: auto;
+  background-color: #f2f2f2;
+  font-family: 'gt' , sans-serif; line-height: 1.2rem;
+}
+
+/* #viewBox ====================================================== */
+#viewBox{
+  position: relative;
+  width: 100%; height: 660px;
+  background-color: #add;
+  padding: 30px; box-sizing: border-box;
+  background-image: url('../../../img/img_31.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.view_area{width: 100%; height: 100%; max-width: 1440px; margin: auto;}
+.view_info{
+  position: absolute; top: 30%; 
+  width: 460px; height: 240px;
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
+}
+.view_info h3{
+  margin-bottom: 60px;
+  text-align: center; text-transform: uppercase; font-size: 2rem; 
+}
+.view_info p{font-weight: lighter; font-size: 1.5rem; line-height: 1.5rem;}
+/* //#viewBox =============================================== */
+
+
+.brand_cont h3{margin-bottom: 10px;}
+/* #brandBox ==================================================== */
+#brandBox{
+  position: relative;
+  width: 100%; height: 420px; 
+  max-width: 1440px;
+  margin: auto;
+  padding: 20px; box-sizing: border-box;
+  background-color: #fff;
+}
+.brand_img{
+  width: 70%; height: 100%;
+  background-color: #ddd;
+  background-image: url('../../../img/img_15.jpg');
+  background-size: 1440px;
+  background-position: 20% 50%;
+  background-repeat: no-repeat;
+
+}
+.brand_cont{
+  position: absolute; bottom: 30px; right: 40px;
+  width: 500px; height: 240px;
+  padding: 30px; box-sizing: border-box;
+  background-color: rgba(50, 50, 50, 0.9);
+  color: #fff; text-align: center;
+}
+.brand_cont h3{margin-bottom: 10px;}
+.brand_cont p { margin-bottom: 30px;}
+.more_btn_area{
+  display: inline;
+}
+.more_btn{
+  width: 180px; height: 40px;
+  color: #fff;
+  background-color: #a11923;
+}
+
+/* //#brandBox =============================================== */
+
+.full_size{
+  padding: 30px; padding-top: 50px; box-sizing: border-box;
+}
+h2{width: 100%; height: auto; text-align: center; font-size: 2rem; line-height: 2rem; margin-bottom: 50px;}
+/* #stepBox ====================================================== */
+#stepBox{
+  width: 100%; height: 900px;
+}
+.step_area{width: 100%; height: 100%; max-width: 1440px; margin: auto;}
+.step_list{width: 100%; height: auto; margin-bottom: 40px;}
+.step_list ul{width: 100%; height: auto;}
+.step_list ul li{float:left; width: 17.6%; height: 260px; margin-right: 3%; background-color: #ddd; margin-bottom: 5%;}
+.step_list ul li:nth-child(5n){margin-right: 0;}
+.step_list ul li:nth-child(n+5){margin-bottom: 0;}
+.step_info{width: 90%; height: 8%; margin: auto; border: 2px solid #a11923; background-color: #fff; padding: 30px;}
+/* //#stepBox =============================================== */
+
+/* #conditionBox ====================================================== */
+#conditionBox{
+  width: 100%; height: 600px;
+}
+.condition_area{width: 100%; height: 100%; max-width: 1440px; margin: auto;}
+.condition_area ul{width: auto; height: auto; color: #333; text-align: center;}
+.condition_area ul li{float:left; width: 30%; height: 390px; margin-right:5%; background-color: #eeede7; padding: 2%; padding-top: 50px; box-sizing: border-box;}
+.condition_area ul li:last-child{margin-right: 0; }
+
+.con_icon{width: 150px; height: 150px; margin:auto; margin-bottom: 30px; border-radius: 50%; background-color: #ddd;}
+.condition_area dt{font-size: 1.2rem; margin-bottom: 20px;}
+/* .condition_area dd{} */
+/* //#conditionBox =============================================== */
+
+/* #infoBox ====================================================== */
+#infoBox{
+  width: 100%; height: 450px;
+}
+#infoBox h3{font-size: 2rem; text-align: center; text-transform: uppercase;}
+.info_cont{width: 47.5%; height:100%; padding:50px; box-sizing: border-box; border: 2px solid #a11923; background-color: #fff;}
+
+.info_area{ width: 100%; height: 100%; max-width: 1440px; margin: auto;}
+.fran_qna{position:relative; float: left;}
+.fran_faq{position:relative; float: right;}
+
+.info_more_area{position:absolute; bottom: 50px; left:0; right:0; width: 240px; height: 60px; margin: auto;}
+.info_more_btn{width: 100%; height: 100%; color: #fff; line-height: 60px; background-color: #333; font-size: 1.2rem;}
+/* //#infoBox =============================================== */

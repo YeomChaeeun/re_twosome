@@ -3,7 +3,10 @@
 /* design data : 1024px */
 @media screen and (min-width: 1024px) and (max-width: 1439px){
 
-  
+  #eventBox{
+    height: 1260px; height: 123.046875vw;
+    max-height: 1410px;
+  }
 
 /* @media end */
 }

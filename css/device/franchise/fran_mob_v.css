@@ -4,6 +4,21 @@
 @media screen and (max-width: 639px){
 
 
+  /* #brandBox ==================================================== */
+  #brandBox{
+    height: 480px;  height: 150vw;
+    max-height: 600px;
+    padding:10px;
+  }
+  .brand_img{width: 100%;}
+  .brand_cont{right: 10px;
+    width: 300px; height: 240px;
+    position: absolute; 
+    font-size: 0.8rem;
+    bottom: 20px; }
+    .brand_cont p { margin-bottom: 10px;}
+  /* //#brandBox =================================================== */
+
   
 /* @media end */
 }

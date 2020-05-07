@@ -4,6 +4,12 @@
 @media screen and (min-width: 1440px) and (max-width: 1919px){
   
   
+  /* #brandBox ==================================================== */
+  #brandBox{
+    height: 690px;
+  }
+  /* //#brandBox =================================================== */
 
+  
 /* @media end */
 }

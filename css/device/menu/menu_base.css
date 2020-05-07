@@ -90,7 +90,7 @@
   padding: 50px; box-sizing: border-box; 
 }
 .pull_menu_text p{margin-bottom: 20px;}
-.pull_menu_text p:fi rst-child{font-weight: bold;}
+.pull_menu_text p:first-child{font-weight: bold;}
 .pull_menu_img{
   width: 30%; height: 55%; margin: auto;
   background-image: url('../../../img/menu_01.png');

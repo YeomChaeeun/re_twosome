@@ -4,6 +4,18 @@
 @media screen and (min-width: 640px) and (max-width: 1023px){
 
 
+  /* #viewBox ==================================================== */
+  #viewBox{height:540px; height: 84.375vw; max-height:660px; background-size: 1000px;}
+  /* //#viewBox ================================================= */
+  
+  /* #eventBox ==================================================== */
+  #eventBox{
+    height: 1080px; height: 168.75vw;
+    max-height: 1260px;
+  }
+  .event_text{padding: 12px;}
+  .event_more_btn{margin-top: 90px;}
+  /* //#eventBox ================================================= */
   
 /* @media end */
 }

@@ -4,6 +4,13 @@
 @media screen and (min-width: 1024px) and (max-width: 1439px){
 
   
+  /* #brandBox ==================================================== */
+  #brandBox{
+    height: 41.015625vw;
+    max-height: 690px;
+  }
+  /* //#brandBox =================================================== */
 
+  
 /* @media end */
 }
