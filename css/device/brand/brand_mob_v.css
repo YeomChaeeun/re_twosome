@@ -19,7 +19,7 @@
   /* #historyBox ========================================== */
   #historyBox{
     height: 1500px;
-  }
+  } 
   #historyBox>ul>li{width: 100%; height: auto;}
   .history_img, .his_text_area{float: none; margin: auto;}
   .his_text_area{width: 300px; height:auto; padding-top: 30px; margin-bottom: 30px;}
