@@ -3,8 +3,8 @@
 
 /* desigh data : 1024px;  */
 #wrap{
-  width: 100%; height: 100%;  margin: auto;
-  background-color: #f2f2f2;
+  width: 100%; height: auto;  margin: auto;
+  background-color: #fff;
   font-family: 'gt' , sans-serif; line-height: 1.2rem;
 }
 
@@ -29,13 +29,22 @@
 }
 .view_info h3{
   margin-bottom: 60px;
-  text-align: center; text-transform: uppercase; font-size: 2rem; 
+  text-align: center; text-transform: uppercase; font-size: 1.8rem; 
 }
 .view_info p{font-weight: lighter; font-size: 1.5rem; line-height: 1.5rem;}
 /* //#viewBox =============================================== */
 
+h2:after,
+h2::after{
+  display: block;
+  margin: 2rem 0;
+  width: 80px;
+  height: 2px;
+  margin: auto; margin-top: 20px;
+  background: #333;
+  content: '';
+}
 
-.brand_cont h3{margin-bottom: 10px;}
 /* #brandBox ==================================================== */
 #brandBox{
   position: relative;
@@ -86,9 +95,7 @@ h2{width: 100%; height: auto; text-align: center; font-size: 2rem; line-height: 
 .step_list{width: 100%; height: auto; margin-bottom: 40px;}
 .step_list ul{width: 100%; height: auto;}
 .step_list ul li{float:left; width: 17.6%; height: 260px; margin-right: 3%; background-color: #ddd; margin-bottom: 5%;}
-.step_list ul li:nth-child(5n){margin-right: 0;}
-.step_list ul li:nth-child(n+5){margin-bottom: 0;}
-.step_info{width: 90%; height: 8%; margin: auto; border: 2px solid #a11923; background-color: #fff; padding: 30px;}
+.step_info{width: 100%; height: auto; margin: auto; border: 2px solid #a11923; background-color: #fff; padding: 20px; box-sizing: border-box;}
 /* //#stepBox =============================================== */
 
 /* #conditionBox ====================================================== */
@@ -97,11 +104,27 @@ h2{width: 100%; height: auto; text-align: center; font-size: 2rem; line-height: 
 }
 .condition_area{width: 100%; height: 100%; max-width: 1440px; margin: auto;}
 .condition_area ul{width: auto; height: auto; color: #333; text-align: center;}
-.condition_area ul li{float:left; width: 30%; height: 390px; margin-right:5%; background-color: #eeede7; padding: 2%; padding-top: 50px; box-sizing: border-box;}
+.condition_area ul li
+{float:left; width: 30%; height: 390px; 
+  margin-right:5%; padding: 2%; padding-top: 50px; 
+  border:2px solid #333; box-sizing: border-box;
+  background-color: #eeede7; 
+}
 .condition_area ul li:last-child{margin-right: 0; }
 
-.con_icon{width: 150px; height: 150px; margin:auto; margin-bottom: 30px; border-radius: 50%; background-color: #ddd;}
 .condition_area dt{font-size: 1.2rem; margin-bottom: 20px;}
+.con_icon{
+  width: 150px; height: 150px; 
+  margin:auto; margin-bottom: 30px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.c_icon_01{background-image: url('../../../img/fran/001-shop.svg');}
+.c_icon_02{background-image: url('../../../img/fran/002-map.svg');}
+.c_icon_03{background-image: url('../../../img/fran/003-book.svg');}
+
 /* .condition_area dd{} */
 /* //#conditionBox =============================================== */
 
@@ -110,7 +133,7 @@ h2{width: 100%; height: auto; text-align: center; font-size: 2rem; line-height: 
   width: 100%; height: 450px;
 }
 #infoBox h3{font-size: 2rem; text-align: center; text-transform: uppercase;}
-.info_cont{width: 47.5%; height:100%; padding:50px; box-sizing: border-box; border: 2px solid #a11923; background-color: #fff;}
+.info_cont{width: 47.5%; height:100%; padding:50px; box-sizing: border-box; border: 5px solid #a11923; background-color: #fff;}
 
 .info_area{ width: 100%; height: 100%; max-width: 1440px; margin: auto;}
 .fran_qna{position:relative; float: left;}

@@ -9,9 +9,7 @@
     height: 540px; height: 84.375vw;
     max-height: 660px;
   }
-  .sub_menu ul{width: 30%;}
-  .sub_menu{height: auto;}
-  .sub_menu ul li {width: 100%;margin-bottom: 5px;}
+  .sub_menu ul{width: 100%;}
 
   /* //#viewBox ======================================== */
   /* #menuBox ========================================= */
@@ -19,6 +17,7 @@
     height: 2200px;
     padding: 30px;
   }
+  .menu_list{max-width: 640px; margin: auto; }
   .menu_list li{
     width: 48%; margin-right: 4%;
   }

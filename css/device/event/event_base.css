@@ -16,11 +16,12 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  padding-top: 20px; box-sizing: border-box;
 }
 .view_text_area{
-  width: 100%; height: 100%; max-width: 1440px;
-  margin: auto;
-  padding: 5%; box-sizing: border-box;
+  width: 100%; height: auto; max-width: 1440px;
+  margin: auto; margin-top: 250px; margin-left: 50px;
+  box-sizing: border-box;
 }
 .view_text_area h2{
   font-size: 4rem;
@@ -32,15 +33,18 @@
 .sub_menu{
   position: absolute; bottom: 0;
   width: 100%; height: 60px;
-  background-color: rgba(230, 230, 230, 0.5);
+  background-color: rgba(230, 230, 230, 0.8);
   text-align: center;
   line-height: 30px;
-  padding: 15px; box-sizing: border-box;
+  border-top: 5px solid #333;
+  border-bottom: 2px solid #333;
+  box-sizing: border-box;
 }
-.sub_menu a{display: block; width: 100%; height: 100%;}
-.sub_menu ul{width: auto; height: auto; max-width:640px; margin: auto;}
-.sub_menu ul li{float:left; width: 47%; height: 30px; background-color: #f2f2f2; margin-right: 4%; border: 1px solid #333;}
+.sub_menu a{display: block; width: 100%; height: 100%; line-height: 53px;}
+.sub_menu ul{width: auto; height: 100%; max-width:640px; margin: auto;}
+.sub_menu ul li{float:left; width: 47%; height: 100%; margin-right: 4%; }
 .sub_menu ul li:last-child{margin-right: 0;}
+.sub_menu ul li:first-child{font-weight: bold;}
 /* //#viewBox ================================================= */
 
 /* #eventBox ==================================================== */

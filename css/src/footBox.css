@@ -23,6 +23,7 @@
   background-position: 50% 55%;
   background-size: 100%; 
 }
+.foot_logo a{display: block; width: 100%; height: 100%;}
 .family_site_box{float:right; width: 220px; height: 60px; margin-top: -50px; }
 .family_site{float:left; width: 150px; height: 30px; margin-right:5px; padding-left: 10px; box-sizing: border-box; background-color: #333; border: 1px solid #fcfcfc; color: #fcfcfc; line-height: 30px;}
 .fnb_btn{float: left; width: 30px; height: 30px; background-color: #555; border: 1px solid #fcfcfc; color: #fcfcfc;}

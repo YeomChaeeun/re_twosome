@@ -3,14 +3,25 @@
 /* design data : 640px */
 @media screen and (min-width: 640px) and (max-width: 1023px){
 
+  #viewBox{
+    background-size: auto 100%;
+  }
 
   /* #brandBox ==================================================== */
   #brandBox{
-    height: 600px;
-    
+    height: 600px; 
   }
   .brand_img{width: 100%;}
   /* //#brandBox =================================================== */
-
+  /* #stepBox ====================================================*/
+  #stepBox{
+    width: 100%; height: auto;
+  }
+  .step_list ul{width: 90%; height: auto; margin: auto;}
+  .step_list ul li{float:left; width: 46%; height: 260px; margin-right: 8%; background-color: #ddd; margin-bottom: 8%;}
+  .step_list ul li:nth-child(2n){margin-right: 0;}
+  .step_list ul li:nth-child(n+9){margin-bottom: 0;}
+  /* //#stepBox ====================================================*/
+  .info_cont{height:300px; height:46.875vw; max-height: 370px;}
 /* @media end */
 }
