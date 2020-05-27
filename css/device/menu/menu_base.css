@@ -56,7 +56,7 @@
 /* #menuBox =========================================== */
 #menuBox{
   position: relative;
-  width: 100%; height: 1200px;
+  width: 100%; height: auto;
   background-color: #fff;
   padding: 20px; box-sizing: border-box;
 }
@@ -69,7 +69,8 @@
   background-color: #fff;
 }
 .menu_list li:nth-child(4n){margin-right: 0;}
-.menu_list>li>div{
+.menu_list li a{display: block; width: 100%; height: 100%;}
+.menu_list>li>a>div{
   width: 100%; height: 90%;
   background-size: auto 100%;
   background-position: 50% 50%;
@@ -92,12 +93,13 @@
 /* 임시 팝업 */
 .pull_menu{
   display: none;
-  position: absolute; top: 330px; left: 0;
-  width: 100%; height: 550px;
+  position: absolute; top: 330px; left: 0; right: 0;
+  width: 90%; height: 550px;
+  margin: auto;
   background-color: #EEECE6;
   text-align: center;
 }
-/* .menu_list:hover +.pull_menu{display: block;} */
+.menu_list:hover +.pull_menu{display: block;}
 .pull_menu_text{
   width: 100%; height: 40%;
   padding: 50px; box-sizing: border-box; 
@@ -118,6 +120,7 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
+.pull_menu_btn_area button{width: 100%; height: 100%;}
 
 .menu_more_btn_area{
   width: 70px; height: 70px; 
@@ -129,6 +132,6 @@
 .menu_more_btn_area button{width: 100%; height: 100%;}
 
 
-
+/* .menu_list li a:hover .pull_menu{display: block;} */
 
 /* //#menuBox ========================================= */

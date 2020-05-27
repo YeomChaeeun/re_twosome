@@ -111,6 +111,7 @@ h1 >a{
     font-weight: bold;
     border-bottom: 3px solid #a11923;
   }
+
   .menu li:hover > ul {display: block;}
 
   #pull {display: block;}
@@ -230,10 +231,12 @@ h1 >a{
     background-color: #333;
     border-top: 5px solid #a11923;
   }
-  .gnb > ul > li:hover .drop {
+  .menu > li>a:focus,
+  .menu > li:hover .drop {
     font-weight: bold;
   }
-  .gnb > ul > li:hover > ul {
+  .menu>li>a:focus,
+  .menu>li:hover ul {
     display: block;
   }
   .gnb > ul > li > ul > li {

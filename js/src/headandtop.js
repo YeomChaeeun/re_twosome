@@ -8,7 +8,6 @@
   var gnbMenu = headBox.find('.menu');
   var unb = $('.unb');
   var pullBtn = $('#pull');
-  console.log(pullBtn);
   var winW = $(window).width();
 
   var pullLogoText = '<div class="pull_logo hidden_wrap"><a href="./main.html"><span>a twosome place</span></a></div>';
@@ -63,6 +62,7 @@
   // top ------------------------------------------------------------
   var topMvBtn = $('.top_btn_area');
 
+  topMvBtn.hide();
   $(window).on('scroll', function(){
     var winScroll = $(window).scrollTop();
     (winScroll>=300)? topMvBtn.stop().fadeIn(300) : topMvBtn.stop().fadeOut(300);

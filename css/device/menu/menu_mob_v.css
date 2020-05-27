@@ -12,8 +12,7 @@
   /* //#viewBox ======================================== */
   /* #menuBox ========================================= */
   #menuBox{
-    height: 1400px; height: 437.5vw;
-    max-height: 2200px;
+    height: auto;
     padding: 30px;
   }
   .menu_list li{

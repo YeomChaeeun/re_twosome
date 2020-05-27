@@ -14,7 +14,7 @@
   /* //#viewBox ======================================== */
   /* #menuBox ========================================= */
   #menuBox{
-    height: 2200px;
+    height: auto;
     padding: 30px;
   }
   .menu_list{max-width: 640px; margin: auto; }

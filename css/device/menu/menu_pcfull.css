@@ -9,7 +9,7 @@
     background-size: 100%;
   }
   #menuBox{
-    height: 1560px;
+    height: auto;
   }
   .menu_list li{
     height: 400px;
