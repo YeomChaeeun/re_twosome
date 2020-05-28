@@ -50,7 +50,7 @@
 .sub_menu a{display: block; width: 100%; height: 100%; line-height: 52px;}
 .sub_menu ul{width: 60%; height: 100%; margin: auto;}
 .sub_menu ul li{float:left; width: 25%; height: 100%;  font-weight: lighter;}
-.sub_menu ul li:first-child{font-weight: bold;}
+.sub_menu ul li.active{font-weight: bold;}
 /* //#viewBox ========================================= */
 
 /* #menuBox =========================================== */
@@ -76,7 +76,7 @@
   background-position: 50% 50%;
   background-repeat: no-repeat; 
 }
-
+/* 
 .co_img_001{background-image: url('../../../img/menu/crop_menu/coffee/mb_101.png');}
 .co_img_002{background-image: url('../../../img/menu/crop_menu/coffee/mb_102.png');}
 .co_img_003{background-image: url('../../../img/menu/crop_menu/coffee/mb_103.png');}
@@ -88,7 +88,9 @@
 .co_img_009{background-image: url('../../../img/menu/crop_menu/coffee/mb_101.png');}
 .co_img_010{background-image: url('../../../img/menu/crop_menu/coffee/mb_102.png');}
 .co_img_011{background-image: url('../../../img/menu/crop_menu/coffee/mb_103.png');}
-.co_img_012{background-image: url('../../../img/menu/crop_menu/coffee/mb_104.png');}
+.co_img_012{background-image: url('../../../img/menu/crop_menu/coffee/mb_104.png');} */
+#menuBox ul{display: none;}
+#menuBox ul.active{display: block;}
 
 /* 임시 팝업 */
 .pull_menu{

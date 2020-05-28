@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- store.html -->
 <html lang="ko-KR">
 <head>
   <meta charset="UTF-8">
@@ -8,7 +9,7 @@
   <link rel="stylesheet" href="../font/gyeonggi/stylesheet.css">
   <link rel="stylesheet" href="../css/base/reset.css">
   <link rel="stylesheet" href="../css/base/common.css">
-  <link rel="stylesheet" href="../css/src/franchise.css">
+  <link rel="stylesheet" href="../css/src/main.css">
 
   <link rel="stylesheet" href="../css/src/headBox.css">
   <link rel="stylesheet" href="../css/src/footBox.css">
@@ -22,15 +23,16 @@
 </head>
 <body>
   <!-- layout -->
-  
   <div id="wrap">
     <!-- #headBox ============================================ -->
+
     <header id="headBox">
       <div class="container">
         <h1><a href="./main.html"><span class="hidden">logo</span></a></h1>
         
         <nav class="navBox">
           <h2 class="hidden">navigation 영역</h2>
+          <!-- scroll시 logo생성위치 -->
           <a href="#" id="pull"><span class="hidden">menu</span></a>
           <div class="gnb">
             <h3 class="hidden">global navigation</h3>
@@ -55,7 +57,7 @@
               <li>
                 <a class="drop" href="#">news</a>
                 <ul>
-                  <li><a href="#">공지사항</a></li>
+                  <li><a href="./news.html">공지사항</a></li>
                   <li><a href="./event.html">이벤트</a></li>
                   <li><a href="#">app 소개</a></li>
                   <li><a href="#">소셜미디어</a></li>
@@ -63,9 +65,9 @@
                 </ul>
               </li>
               <li>
-                <a class="drop" href="#">store</a>
+                <a class="drop" href="./store.html">store</a>
                 <ul>
-                  <li><a href="#">매장안내</a></li>
+                  <li><a href="./store.html">매장안내</a></li>
                 </ul>
               </li>
               <li>
@@ -78,110 +80,6 @@
       </div>
     </header>
     <!-- //#headBox=========================================== -->
-
-    <!-- #viewBox ================================================= -->
-    <section id="viewBox">
-      <h2 class="hidden">메인 소개 영역</h2>
-      <div class="view_area">
-        <div class="view_info">
-          <h3>franchise</h3>
-          <p>투썸플레이스</p>
-          <p>파트너 분들을 환영합니다.</p>
-          <p>투썸플레이스 창업절차를 자세히 알려드립니다.</p>
-        </div>
-      </div>
-    </section>
-    <!-- //#viewBox =============================================== -->
-
-    <!-- #brandBox ================================================= -->
-    <article id="brandBox">
-      <h2 class="hidden">브랜드 소개 영역</h2>
-      <div class="brand_img"><span class="hidden">브랜드 관련 이미지</span></div>
-      <div class="brand_cont"> 
-        <h3>프리미엄 디저트카페 투썸플레이스를 소개합니다.</h3>
-        <p>투썸플레이스는 따스한 한잔의 커피가 있는(a cup of Coffee) 
-          우리가 함께하는(Two of us), 눈과 입이 즐거운 색다른 디저트를 즐기는(Some dessert),
-          작은 사치를 누릴 수 있는 행복한 공간(Place) 입니다.</p>
-        <div class="more_btn_area">
-          <button type="button" class="more_btn"><span>브랜드 이야기 보기</span></button>
-      </div>
-    </article>
-    <!-- //#brandBox =============================================== -->
-
-    <!-- #stepBox ================================================= -->
-    <article id="stepBox" class="full_size">
-      <h2>창업 절차</h2>
-      <div class="step_area">
-        <div class="step_list">
-          <ul class="clearfix">
-            <li>1</li>
-            <li>2</li> 
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
-            <li>7</li>
-            <li>8</li>
-            <li>9</li>
-            <li>10</li>
-          </ul>
-        </div>
-        <div class="step_info">
-          <p>본사 홈페이지 또는 전화(80-723-2323)로 신청하시면<br />
-            창업희망지역의 점포개발담당자와 연결하여 상담드리겠습니다.</p>    
-        </div>
-      </div>
-    </article>
-    <!-- //#stepBox =============================================== -->
-
-    <!-- #conditionBox ================================================= -->
-    <article id="conditionBox" class="full_size">
-      <h2>창업 조건</h2>
-      <div class="condition_area">
-        <ul class="clearfix">
-          <li><div class="con_icon c_icon_01"></div>
-            <dl>
-              <dt>창업 기능 상권</dt>
-              <dd>상업지, 오피스 역세권, <br />
-                대학가, 대형 집객시설물 등</dd>
-            </dl>
-          </li>
-          <li><div class="con_icon c_icon_02"></div>
-            <dl>
-              <dt>창업 기준 면적</dt>
-              <dd>1층 : 148.7(45평) / 전면 8m 이상</dd>
-            </dl>
-          </li>
-          <li><div class="con_icon c_icon_03"></div>
-            <dl>
-              <dt>기본 시설 사항</dt>
-              <dd>전기 : 70kw 이상 <br />용도 : 근린생활시설 1종 또는 2종 <br />기타 : 급, 배수/ 급, 배기 가능</dd>
-            </dl>
-          </li>
-        </ul>
-      </div>
-    </article>
-    <!-- //#conditionBox =============================================== -->
-
-    <!-- #infoBox ================================================= -->
-    <article id="infoBox" class="full_size">
-      <h2 class="hidden">가맹점 문의 및 faq 질문 바로가기 영역</h2>
-      <div class="info_area">
-        <div class="info_cont fran_qna">
-          <h3>가맹점 문의</h3>
-          <div class="info_more_area">
-            <button type="button" class="info_more_btn"><span>바로 가기</span></button>
-          </div>
-        </div>
-        <div class="info_cont fran_faq">
-          <h3>faq</h3>
-          <div class="info_more_area">
-            <button type="button" class="info_more_btn"><span>바로 가기</span></button>
-          </div>
-        </div>
-      </div>
-    </article>
-    <!-- //#infoBox =============================================== -->
 
 
     <!-- #footBox ============================================ -->
@@ -213,7 +111,7 @@
             </address>
           </div>
           <div class="copyright">
-            copyright 2020 a twosome place co. ltd. all rights reserved.
+            <p>copyright 2020 a twosome place co. ltd. all rights reserved.</p>
           </div>
         </div>
       </div>
@@ -231,6 +129,5 @@
   <script src="../js/base/jquery-3.5.1.min.js"></script>
   <script src="../js/base/jquery-ui.min.js"></script>
   <script src="../js/src/headandtop.js"></script>
-  
 </body>
 </html>
