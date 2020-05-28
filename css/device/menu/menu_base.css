@@ -70,11 +70,11 @@
 }
 .menu_list li:nth-child(4n){margin-right: 0;}
 .menu_list li a{display: block; width: 100%; height: 100%;}
-.menu_list>li>a>div{
+.img_bg{
   width: 100%; height: 90%;
-  background-size: auto 100%;
-  background-position: 50% 50%;
-  background-repeat: no-repeat; 
+}
+.img_bg:hover{
+  background-size: 120%;
 }
 /* 
 .co_img_001{background-image: url('../../../img/menu/crop_menu/coffee/mb_101.png');}
