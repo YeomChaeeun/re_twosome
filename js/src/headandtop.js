@@ -11,7 +11,7 @@
   var winW = $(window).width();
 
   var pullLogoText = '<div class="pull_logo hidden_wrap"><a href="./main.html"><span>a twosome place</span></a></div>';
-  headBox.before(pullLogoText);
+  headBox.append(pullLogoText);
   var pullLogo = $('.pull_logo');
 
   var mob = function(){
