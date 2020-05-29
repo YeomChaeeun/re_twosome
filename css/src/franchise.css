@@ -1,9 +1,9 @@
 @charset "utf-8";
 /* franchise.css */
 
-@import url('/css/device/franchise/fran_base.css');
-@import url('/css/device/franchise/fran_mob_v.css');
-@import url('/css/device/franchise/fran_mob_h.css');
-@import url('/css/device/franchise/fran_tab.css');
-@import url('/css/device/franchise/fran_pc.css');
-@import url('/css/device/franchise/fran_pcfull.css');
+@import url('../device/franchise/fran_base.css');
+@import url('../device/franchise/fran_mob_v.css');
+@import url('../device/franchise/fran_mob_h.css');
+@import url('../device/franchise/fran_tab.css');
+@import url('../device/franchise/fran_pc.css');
+@import url('../device/franchise/fran_pcfull.css');

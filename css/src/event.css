@@ -1,9 +1,9 @@
 @charset "utf-8";
 /* event.css */
 
-@import url('/css/device/event/event_base.css');
-@import url('/css/device/event/event_mob_v.css');
-@import url('/css/device/event/event_mob_h.css');
-@import url('/css/device/event/event_tab.css');
-@import url('/css/device/event/event_pc.css');
-@import url('/css/device/event/event_pcfull.css');
+@import url('../device/event/event_base.css');
+@import url('../device/event/event_mob_v.css');
+@import url('../device/event/event_mob_h.css');
+@import url('../device/event/event_tab.css');
+@import url('../device/event/event_pc.css');
+@import url('../device/event/event_pcfull.css');

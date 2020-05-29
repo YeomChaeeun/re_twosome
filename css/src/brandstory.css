@@ -1,12 +1,12 @@
 @charset "utf-8";
 /* brandstory.css */
 
-@import url('/css/device/brand/brand_base.css');
-@import url('/css/device/brand/brand_mob_v.css');
-@import url('/css/device/brand/brand_mob_h.css');
-@import url('/css/device/brand/brand_tab.css');
-@import url('/css/device/brand/brand_pc.css');
-@import url('/css/device/brand/brand_pcfull.css');
+@import url('../device/brand/brand_base.css');
+@import url('../device/brand/brand_mob_v.css');
+@import url('../device/brand/brand_mob_h.css');
+@import url('../device/brand/brand_tab.css');
+@import url('../device/brand/brand_pc.css');
+@import url('../device/brand/brand_pcfull.css');
 
 
 /* brand_base.css brand_mob_v.css brand_mob_h.css brand_tab.css brand_pc.css brand_pcfull.css */
