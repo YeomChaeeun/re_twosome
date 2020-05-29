@@ -15,7 +15,7 @@
 
   ];
 
-  var imgUrl ='../../../img/menu/crop_menu/coffee/';
+  var imgUrl ='../img/menu/crop_menu/coffee/';
 
   var menuBox = $('#menuBox');
   menuBox.append('<ul class="menu_list menu_01 clearfix active"></ul>');
