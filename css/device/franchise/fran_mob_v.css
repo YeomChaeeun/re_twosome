@@ -31,24 +31,29 @@
   }
   .step_list ul{width: 100%; height: auto; margin: auto;}
   .step_list ul li{
-    float:left; width: 46%; height: 200px; 
+    float:left; width: 46%; height: 260px; 
     margin-right: 8%; margin-bottom: 8%;
-    background-color: #ddd; 
   }
   .step_list ul li:nth-child(2n){margin-right: 0;}
   .step_list ul li:nth-child(n+9){margin-bottom: 0;}
+  .check_list .num_box{font-size: 1.5rem; padding: 0.5rem 0;}
+  .check_list dt{font-size: 0.8rem;}
+  .check_list dd{font-size: 0.7rem;}
   /* //#stepBox ====================================================*/
   /* #conditionBox ====================================================== */
   #conditionBox{
     height: auto;
   }
+  
+  .condition_area dt{font-size: 1rem; margin-bottom: 10px;}
+  .condition_area dd{font-size: 0.8rem;}
   .condition_area ul li{
     float:none; width: 100%; height: 160px; 
     margin-bottom: 30px; padding: 20px; box-sizing: border-box; 
   }
   .con_icon{
     float: left;
-    width: 120px; height: 120px; 
+    width: 100px; height: 100px;
   }
   /* //#conditionBox =============================================== */
 

@@ -181,8 +181,8 @@ h1 >a{
 /* @media end */
 }
 
-/* design data : 1024px, 1440px, 1920px */
-@media screen and (min-width: 1024px){
+/* design data : 1024px */
+@media screen and (min-width: 1024px) and (max-width: 1439px){
 
   /* #headBox ==================================================== */
   .navBox{
@@ -248,3 +248,70 @@ h1 >a{
 
 /* @media end */
 }
+
+/* design data : 1440px */
+@media screen and (min-width: 1440px){
+  .navBox{
+    position: relative;
+    width: 100%; height: 90px;
+    padding: 10px; box-sizing: border-box;
+    color: #fff;
+  }
+  .pull_logo{
+    display: none;
+    position: fixed; top: 0; left: 2%; z-index: 1500;
+    width:280px; height:96px;
+    background-color: #fff;
+    background-image: url('../../img/1x/h1_logo_01.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: auto 101%;
+  }
+  .pull_logo a{display: block; width: 100%; height: 100%;}
+
+  .gnb {background: transparent; text-transform: uppercase;}
+  .menu { margin:auto; margin-top: 20px; width: 650px; }
+  .gnb > ul > li { 
+    display: inline-block; 
+    position: relative; 
+    width: 90px; height: 30px;
+    padding: 3px 10px 3px 0;
+    z-index: 100;
+  }
+  .gnb > ul > li:first-child{width: 190px;}
+  .gnb > ul > li:nth-child(5){width: 110px;}
+
+  /* SECOND LEVEL */
+  .gnb > ul > li > ul {
+    position: absolute; z-index: 1000;
+    left: 0;
+    top: 100%;
+    width: auto; height: 200px;
+    padding: 0 1000em; /* trick from css-tricks comments */
+    margin: 0 -1000em; /* trick from css-tricks comments */
+    padding-top: 20px;
+    z-index: 101;
+    overflow: hidden;
+    display: none;
+    font-size: 1rem;
+    background-color: #333;
+    border-top: 5px solid #a11923;
+  }
+  .menu > li>a:focus,
+  .menu > li:hover .drop {
+    font-weight: bold;
+  }
+  .menu>li>a:focus,
+  .menu>li:hover ul {
+    display: block;
+  }
+  .gnb > ul > li > ul > li {
+    width: auto; height: 30px;
+    padding: 3px 0;
+    font-weight: lighter;
+  }
+  
+/* @media end */
+}
+
+

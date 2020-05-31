@@ -72,10 +72,12 @@
 .menu_list li a{display: block; width: 100%; height: 100%;}
 .img_bg{
   width: 100%; height: 90%;
+  background-size:100%;
+  transition: all 300ms ease;
 }
-.img_bg:hover{
+/* .img_bg:hover{
   background-size: 120%;
-}
+} */
 /* 
 .co_img_001{background-image: url('../../../img/menu/crop_menu/coffee/mb_101.png');}
 .co_img_002{background-image: url('../../../img/menu/crop_menu/coffee/mb_102.png');}

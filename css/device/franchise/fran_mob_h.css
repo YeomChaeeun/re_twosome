@@ -18,7 +18,7 @@
     width: 100%; height: auto;
   }
   .step_list ul{width: 90%; height: auto; margin: auto;}
-  .step_list ul li{float:left; width: 46%; height: 260px; margin-right: 8%; background-color: #ddd; margin-bottom: 8%;}
+  .step_list ul li{float:left; width: 46%; height: 260px; margin-right: 8%; margin-bottom: 8%;}
   .step_list ul li:nth-child(2n){margin-right: 0;}
   .step_list ul li:nth-child(n+9){margin-bottom: 0;}
   /* //#stepBox ====================================================*/

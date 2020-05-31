@@ -93,8 +93,13 @@ h2{width: 100%; height: auto; text-align: center; font-size: 2rem; line-height: 
 }
 .step_area{width: 100%; height: 100%; max-width: 1440px; margin: auto;}
 .step_list{width: 100%; height: auto; margin-bottom: 40px;}
-.step_list ul{width: 100%; height: auto;}
-.step_list ul li{float:left; width: 17.6%; height: 260px; margin-right: 3%; background-color: #ddd; margin-bottom: 5%;}
+.check_list{width: 100%; height: auto;}
+.check_list li{float:left; width: 17.6%; height: 260px; margin-right: 3%; margin-bottom: 5%; padding:1rem; border-radius: 0.5rem; box-sizing: border-box; background-color: #eeede7; } 
+.check_list .num_box{font-size: 2rem; border-bottom: 2px solid #333; padding: 1rem 0; box-sizing: border-box;}
+.check_list dl{width: 100%; height: auto; margin-top: 0.5rem;}
+.check_list dt{font-size: 1rem; font-weight: bold; margin-bottom: 0.5rem;}
+.check_list dd{font-size: 0.9rem;}
+
 .step_info{width: 100%; height: auto; margin: auto; border: 2px solid #a11923; background-color: #fff; padding: 20px; box-sizing: border-box;}
 /* //#stepBox =============================================== */
 
@@ -103,7 +108,7 @@ h2{width: 100%; height: auto; text-align: center; font-size: 2rem; line-height: 
   width: 100%; height: 600px;
 }
 .condition_area{width: 100%; height: 100%; max-width: 1440px; margin: auto;}
-.condition_area ul{width: auto; height: auto; color: #333; text-align: center;}
+.condition_area ul{width: auto; height: auto; color: #333;}
 .condition_area ul li
 {float:left; width: 30%; height: 390px; 
   margin-right:5%; padding: 2%; padding-top: 50px; 
