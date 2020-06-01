@@ -49,16 +49,7 @@
     pcFull();
   }
 
-  // resize -------------------------------------------------------
-  win.on('resize',function(){
-    var nowWinW = win.width();
-    var deviceWidthCheck = (winW !== nowWinW);
 
-    if(deviceWidthCheck){
-      location.reload(); 
-    }
-  });
-  
   // top ------------------------------------------------------------
   var topMvBtn = $('.top_btn_area');
 

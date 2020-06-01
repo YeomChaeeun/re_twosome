@@ -194,7 +194,7 @@
   
   menuBoxLi = menuList.children('li');
     
-  menuBoxLi.find('a').on('mouseenter',function(e){
+  menuBoxLi.find('a').on('mouseenter focus',function(e){
     e.preventDefault();
     var thisIt = $(this).parent('li');
 
