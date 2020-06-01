@@ -5,7 +5,7 @@
 #wrap{
   width: 100%; height: 100%;
   background-color: #f2f2f2;
-  font-family: 'gt' , sans-serif; line-height: 1.2rem;
+  font-family: 'NanumSquare' , sans-serif; line-height: 1.2rem;
 }
 
 /* #viewBox =============================================== */
@@ -69,6 +69,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-position:  50% 50%;
+  transition: all 300ms ease;
 }
 .his_text_area{
   float: right;
@@ -79,6 +80,10 @@
 .img_01{background-image: url('../../../img/his_img_01.png');}
 .img_02{background-image: url('../../../img/his_img_02.png');}
 .img_03{background-image: url('../../../img/his_img_03.png');}
+
+#historyBox>ul>li:hover .history_img{
+  background-size: 120%;
+}
 /* //#historyBox ============================================== */
 
 /* more content 공통요소 (coffee, dessert) */
