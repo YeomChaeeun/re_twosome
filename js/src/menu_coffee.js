@@ -41,7 +41,7 @@
     menuBoxUl_01.children('li').eq(i).find('.img_bg').css({
                                 backgroundImage:'url('+ imgUrl +newList_01[i].img +')',
                                 backgroundRepeat:'no-repeat',
-                                backgroundPosition:'50% 50%',
+                                backgroundPosition:'50% 50%'
                               })
   }
   // //newList_01 ------------------------------------------------------------------------------
@@ -78,8 +78,7 @@
     menuBoxUl_02.children('li').eq(i).find('.img_bg').css({
                                 backgroundImage:'url('+ imgUrl +newList_02[i].img +')',
                                 backgroundRepeat:'no-repeat',
-                                backgroundPosition:'50% 50%',
-                                backgroundSize:'cover'
+                                backgroundPosition:'50% 50%'
                               })
   }
 
@@ -122,8 +121,7 @@
     menuBoxUl_03.children('li').eq(i).find('.img_bg').css({
                                 backgroundImage:'url('+ imgUrl +newList_03[i].img +')',
                                 backgroundRepeat:'no-repeat',
-                                backgroundPosition:'50% 50%',
-                                backgroundSize:'cover'
+                                backgroundPosition:'50% 50%'
                               })
   }
 
@@ -166,8 +164,7 @@
     menuBoxUl_04.children('li').eq(i).find('.img_bg').css({
                                 backgroundImage:'url('+ imgUrl +newList_04[i].img +')',
                                 backgroundRepeat:'no-repeat',
-                                backgroundPosition:'50% 50%',
-                                backgroundSize:'cover'
+                                backgroundPosition:'50% 50%'
                               })
   }
 
@@ -177,6 +174,9 @@
   var subMenu = $('.sub_menu');
   var subMenuLi = subMenu.find('li');
   var menuBoxUl = menuBox.find('ul');
+
+  var menuList = menuBox.find('.menu_list');
+  var menuBoxLi;
 
   subMenuLi.find('a').on('click focus',function(e){
     e.preventDefault();
@@ -190,9 +190,27 @@
     thisIt.addClass('active');
   })
 
+  // zoom mouseenter
+  
+  menuBoxLi = menuList.children('li');
+    
+  menuBoxLi.find('a').on('mouseenter',function(e){
+    e.preventDefault();
+    var thisIt = $(this).parent('li');
 
+    thisIt.addClass('zoom');
+    thisIt.siblings().removeClass('zoom');
+  });
+
+  menuBoxLi.find('a').on('mouseleave',function(e){
+    e.preventDefault();
+    menuBoxLi.removeClass('zoom');
+  });
+
+  
 
   // modal
+
 
 
   // end

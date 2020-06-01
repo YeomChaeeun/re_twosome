@@ -75,9 +75,9 @@
   background-size:100%;
   transition: all 300ms ease;
 }
-/* .img_bg:hover{
+.menu_list li.zoom .img_bg{
   background-size: 120%;
-} */
+}
 /* 
 .co_img_001{background-image: url('../../../img/menu/crop_menu/coffee/mb_101.png');}
 .co_img_002{background-image: url('../../../img/menu/crop_menu/coffee/mb_102.png');}
