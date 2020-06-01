@@ -78,23 +78,66 @@
 .menu_list li.zoom .img_bg{
   background-size: 120%;
 }
-/* 
-.co_img_001{background-image: url('../../../img/menu/crop_menu/coffee/mb_101.png');}
-.co_img_002{background-image: url('../../../img/menu/crop_menu/coffee/mb_102.png');}
-.co_img_003{background-image: url('../../../img/menu/crop_menu/coffee/mb_103.png');}
-.co_img_004{background-image: url('../../../img/menu/crop_menu/coffee/mb_104.png');}
-.co_img_005{background-image: url('../../../img/menu/crop_menu/coffee/mb_101.png');}
-.co_img_006{background-image: url('../../../img/menu/crop_menu/coffee/mb_102.png');}
-.co_img_007{background-image: url('../../../img/menu/crop_menu/coffee/mb_103.png');}
-.co_img_008{background-image: url('../../../img/menu/crop_menu/coffee/mb_104.png');}
-.co_img_009{background-image: url('../../../img/menu/crop_menu/coffee/mb_101.png');}
-.co_img_010{background-image: url('../../../img/menu/crop_menu/coffee/mb_102.png');}
-.co_img_011{background-image: url('../../../img/menu/crop_menu/coffee/mb_103.png');}
-.co_img_012{background-image: url('../../../img/menu/crop_menu/coffee/mb_104.png');} */
+
 #menuBox ul{display: none;}
 #menuBox ul.active{display: block;}
 
-/* 임시 팝업 */
+/* modal css */
+.big_modal{
+  display: none;
+  position: fixed; top: 0; left: 0; z-index: 1500;
+  width: 100%; height: 100%;
+}
+.big_img{
+  position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;
+  width: 1200px; height: 600px;
+  border: 1rem solid #fff;
+  box-sizing: border-box;
+  background-color: #ddd;
+  border-radius: 0.7rem;
+}
+.close_btn{
+  position: absolute; right: -2rem; top: -2rem;
+  width: 4rem; height: 4rem;
+  border: 0.3rem solid #fff;
+  box-sizing: border-box;
+  background-color: #333;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.8);
+  border-radius: 100%;
+}
+.close_btn>button{
+  position: relative;
+  display: block;
+  width: 100%; height: 100%; border-radius: 100%;
+}
+.close_btn>button:before,
+.close_btn>button:after{
+  content: " "; display: block; position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0; margin: auto;
+  width: 70%; height: 4px; background-color: #fff;
+  border-radius: 2px;
+  transition: transform 500ms ease;
+}
+.close_btn>button:before{
+  transform: rotate(45deg);
+}
+.close_btn>button:after{
+  transform: rotate(-45deg);
+}
+.close_btn>button:hover:before,
+.close_btn>button:focus:before{
+  transform: rotate(180deg) translateY(-10px);
+}
+.close_btn>button:hover:after,
+.close_btn>button:focus:after{
+  transform: rotate(180deg) translateY(10px);
+}
+.big_bg{
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* 임시 팝업
 .pull_menu{
   display: none;
   position: absolute; top: 330px; left: 0; right: 0;
@@ -133,7 +176,7 @@
   background-repeat: no-repeat; 
   background-position: 50% 50%;
 }
-.menu_more_btn_area button{width: 100%; height: 100%;}
+.menu_more_btn_area button{width: 100%; height: 100%;} */
 
 
 /* .menu_list li a:hover .pull_menu{display: block;} */

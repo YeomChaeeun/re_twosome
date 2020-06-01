@@ -1,10 +1,11 @@
 // menu_coffe.js
+var newList_01, newList_02, newList_03, newList_04;
 
 (function($){
   // start
 
   // newList_01 -----------------------------------------------------------------------------------
-  var newList_01 = [
+  newList_01 = [
     {img:'mb_401.png',pcImg:'mb_401.png', imgNarr:'이미지설명', title:'흑당 곡물라떼', content:'ladsfasdforem........'},
     {img:'mb_402.png',pcImg:'mb_402.png', imgNarr:'이미지설명', title:'아이스 흑당 곡물라떼', content:'Lorem ipsum dolor sit amet '},
     {img:'mb_403.png',pcImg:'mb_403.png', imgNarr:'이미지설명', title:'상그리아 에이드', content:'lorem...dfs asdf adsfasdf.'},
@@ -47,7 +48,7 @@
   // //newList_01 ------------------------------------------------------------------------------
 
   // newList_02 --------------------------------------------------------------------------------
-  var newList_02 = [
+  newList_02 = [
     {img:'mb_101.png',pcImg:'mb_101.png', imgNarr:'이미지설명', title:'달고나 카페 라떼', content:'ladsfasdforem........'},
     {img:'mb_102.png',pcImg:'mb_102.png', imgNarr:'이미지설명', title:'롱블랙', content:'Lorem ipsum dolor sit amet '},
     {img:'mb_103.png',pcImg:'mb_103.png', imgNarr:'이미지설명', title:'아이스 롱블랙', content:'lorem...dfs asdf adsfasdf.'},
@@ -86,7 +87,7 @@
 
 
   // newList_03 --------------------------------------------------------------------------------
-  var newList_03 = [
+  newList_03 = [
     {img:'mb_201.png',pcImg:'mb_201.png', imgNarr:'이미지설명', title:'망고 바나나 라떼', content:'ladsfasdforem........'},
     {img:'mb_202.png',pcImg:'mb_201.png', imgNarr:'이미지설명', title:'제주 말차 프라페', content:'ladsfasdforem........'},
     {img:'mb_203.png',pcImg:'mb_202.png', imgNarr:'이미지설명', title:'로얄 밀크티 쉐이크', content:'Lorem ipsum dolor sit amet '},
@@ -129,7 +130,7 @@
 
 
   // newList_04 --------------------------------------------------------------------------------
-  var newList_04 = [
+  newList_04 = [
     {img:'mb_301.png',pcImg:'mb_301.png', imgNarr:'이미지설명', title:'TWG 흑당 버블 밀크티', content:'ladsfasdforem........'},
     {img:'mb_302.png',pcImg:'mb_302.png', imgNarr:'이미지설명', title:'허니레몬티', content:'ladsfasdforem........'},
     {img:'mb_303.png',pcImg:'mb_303.png', imgNarr:'이미지설명', title:'아이스 애플민트티', content:'Lorem ipsum dolor sit amet '},
@@ -181,10 +182,10 @@
   subMenuLi.find('a').on('click focus',function(e){
     e.preventDefault();
     var thisIt = $(this).parent('li');
-    var thisIndex = thisIt.index();
+    var subMenuLiIndex = thisIt.index();
     // console.log(thisIndex);
-    menuBoxUl.eq(thisIndex).show();
-    menuBoxUl.eq(thisIndex).siblings().hide();
+    menuBoxUl.eq(subMenuLiIndex).show();
+    menuBoxUl.eq(subMenuLiIndex).siblings().hide();
 
     thisIt.siblings().removeClass('active');
     thisIt.addClass('active');
@@ -192,8 +193,7 @@
 
   // zoom mouseenter
   
-  menuBoxLi = menuList.children('li');
-    
+  menuBoxLi = menuList.children('li');    
   menuBoxLi.find('a').on('mouseenter focus',function(e){
     e.preventDefault();
     var thisIt = $(this).parent('li');
@@ -207,7 +207,6 @@
     menuBoxLi.removeClass('zoom');
   });
 
-  
 
   // modal
 
