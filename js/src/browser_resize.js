@@ -73,15 +73,15 @@
     }
   });
 
-  win.on('resize',function(){
-    var nowWinW = win.width();
-    var deviceWidthCheck = (winW !== nowWinW);
+  // win.on('resize',function(){
+  //   var nowWinW = win.width();
+  //   var deviceWidthCheck = (winW !== nowWinW);
 
-    if(deviceWidthCheck){
-      location.reload(); 
-    }
+  //   if(deviceWidthCheck){
+  //     location.reload(); 
+  //   }
 
-  });
+  // });
   
 
 })(jQuery);

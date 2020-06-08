@@ -100,7 +100,7 @@ h2{width: 100%; height: auto; text-align: center; font-size: 2rem; line-height: 
   background-color: #eeede7; 
 } 
 .check_list .num_box{font-size: 2rem; border-bottom: 2px solid #333; padding: 1rem 0; box-sizing: border-box;}
-.check_list dl{width: 100%; height: auto; margin-top: 0.5rem;}
+.check_list dl{width: 100%; height: auto; margin-top: 0.5rem; }
 .check_list dt{font-size: 1rem; font-weight: bold; margin-bottom: 0.5rem;}
 .check_list dd{font-size: 0.9rem;}
 
