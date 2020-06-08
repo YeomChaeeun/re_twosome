@@ -5,6 +5,8 @@
   var menuBox = $('#menuBox');
   var bigModalText = '<div class="big_modal">\
             <div class="big_img">\
+              <div class="me_info"></div>\
+              <div class="me_img"></div>\
               <div class="close_btn"><button type="button"><span class="hidden">닫기</span></button></div>\
             </div>\
             <div class="big_bg"></div></div>';
@@ -12,8 +14,10 @@
   menuBox.append(bigModalText);
   var bigModal = menuBox.children('.big_modal');
   var bigModalBtn = bigModal.find('.close_btn');
-  var bigImg = bigModal.find('.big_img');
+  var bigImgBox = bigModal.find('.big_img');
   var bigBg = bigModal.find('.big_bg');
+  var meImg = bigModal.find('.me_img');
+  var menuInfo = bigModal.find('.me_info');
 
   var bigUrl = '../img/menu/coffee/';
 
@@ -53,12 +57,26 @@
   });
 
 
+  var menuInfoText = '<p>title</p><p>price</p><br/><p>content</p>';
+  menuInfo.append(menuInfoText);
+  menuInfo = bigModal.find('.me_info');
+  menuInfoTitle = menuInfo.find('p').eq(0);
+  menuInfoPrice = menuInfo.find('p').eq(1);
+  menuInfoContent = menuInfo.find('p').eq(2);
+
+  var menuTextChange = function(n){
+    menuInfoTitle.text(modalList[n].title);
+    menuInfoPrice.text(modalList[n].price);
+    menuInfoContent.text(modalList[n].content);
+  }
+
   menuBoxLi.find('a').on('click',function(e){
     e.preventDefault();
     var itIndex = $(this).parent('li').index();
     n = itIndex;
-
-    bigImg.css({backgroundImage:'url('+bigUrl+modalList[itIndex].img+')',backgroundSize:'50%',backgroundPosition:'50% 50%',backgroundRepeat:'no-repeat'});
+    
+    menuTextChange(itIndex);
+    meImg.css({backgroundImage:'url('+bigUrl+modalList[itIndex].img+')',backgroundSize:'contain',backgroundPosition:'50% 0',backgroundRepeat:'no-repeat'});
 
     bigModal.fadeIn(function(){
       $(window).on('keyup',function(evt){
@@ -68,11 +86,13 @@
         if(keyCode ===37){
           n-=1;
           if(n<0){n=modalList.length-1;}
-          bigImg.css({backgroundImage:'url('+bigUrl+modalList[n].img+')'});
+          meImg.css({backgroundImage:'url('+bigUrl+modalList[n].img+')'});
+          menuTextChange(n);
         }else if(keyCode ===39){
           n+=1;
           if(n>modalList.length-1){n=0;}
-          bigImg.css({backgroundImage:'url('+bigUrl+modalList[n].img+')'});
+          meImg.css({backgroundImage:'url('+bigUrl+modalList[n].img+')'});
+          menuTextChange(n);
         }else if(keyCode ===27){
           bigModal.fadeOut(400,function(){
             menuBoxLi.eq(0).find('a').focus();
