@@ -57,7 +57,7 @@
   });
 
 
-  var menuInfoText = '<p>title</p><p>price</p><br/><p>content</p>';
+  var menuInfoText = '<p>title</p><p></p><br/><p>content</p>';
   menuInfo.append(menuInfoText);
   menuInfo = bigModal.find('.me_info');
   menuInfoTitle = menuInfo.find('p').eq(0);
@@ -66,7 +66,7 @@
 
   var menuTextChange = function(n){
     menuInfoTitle.text(modalList[n].title);
-    menuInfoPrice.text(modalList[n].price);
+    // menuInfoPrice.html('<span>&#8361;</span>'+modalList[n].price);
     menuInfoContent.text(modalList[n].content);
   }
 
